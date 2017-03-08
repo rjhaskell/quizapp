@@ -1,0 +1,20 @@
+{
+  "name": "quizapp",
+  "description": "quiz application",
+  "main": "index.js",
+  "authors": [
+    "Robert Haskell"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rjhaskell/quizapp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-promise": "^4.0.5"
+  }
+}

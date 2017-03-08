@@ -1,0 +1,10 @@
+# Third Party Libraries
+node_modules
+bower_components
+src/lib
+
+# Compile/Transpile Artifacts
+*.js
+*.js.map
+bin
+obj

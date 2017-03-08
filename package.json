@@ -1,0 +1,26 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "quiz application",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjhaskell/quizapp.git"
+  },
+  "keywords": [],
+  "author": "Robert Haskell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjhaskell/quizapp/issues"
+  },
+  "homepage": "https://github.com/rjhaskell/quizapp#readme",
+  "devDependencies": {
+    "@types/es6-promise": "0.0.32",
+    "@types/jquery": "^2.0.40",
+    "lite-server": "^2.2.2"
+  }
+}
