@@ -1,9 +1,9 @@
 //Question class w/constructor
 class Question {
     constructor(public ask: string,
-        public answerChoice1: string,
-        public answerChoice2: string,
-        public answerChoice3: string,
+        public answerChoiceA: string,
+        public answerChoiceB: string,
+        public answerChoiceC: string,
         public correctAnswer: string,
         public points: number = 20) {
     }
@@ -17,18 +17,18 @@ let q04 = new Question("Blue and yellow makes what?", "A. Green", "B. Brown", "C
 let q05 = new Question("How many sides to a square?", "A. 4", " B. 3", "C. 2", "A", 20);
 
 //Initailize running total score
-let quizScore = 0;
+let quizScore: number = 0;
 
 //Each question has it's own function 1111111111111111111111111111111111111111
 function question01() {
 
-    //Promopt user for answer
+    //Promopt user for answer to question.
     let result01: string = window.prompt(`Question 1:   (${q01.points} points)
 
     ${q01.ask}
-        ${q01.answerChoice1}
-        ${q01.answerChoice2}
-        ${q01.answerChoice3}`,
+        ${q01.answerChoiceA}
+        ${q01.answerChoiceB}
+        ${q01.answerChoiceC}`,
         `Your answer: A, B, or C (NOT case sensitive)`);
 
     //In-process user answer
@@ -63,13 +63,13 @@ function question01() {
 //2222222222222222222222222222222222222222222222222222222222222222222222222222
 function question02() {
 
-    //Promopt user for answer
+    //Promopt user for answer to question
     let result02: string = window.prompt(`Question 2:   (${q02.points} points)
 
     ${q02.ask}
-        ${q02.answerChoice1}
-        ${q02.answerChoice2}
-        ${q02.answerChoice3}`,
+        ${q02.answerChoiceA}
+        ${q02.answerChoiceB}
+        ${q02.answerChoiceC}`,
         `Your answer: A, B, or C (NOT case sensitive)`);
 
     //In-process user answer
@@ -104,13 +104,13 @@ function question02() {
 //3333333333333333333333333333333333333333333333333333333333333333333333333333
 function question03() {
 
-    //Promopt user for answer
+    //Promopt user for answer to question
     let result03: string = window.prompt(`Question 3:   (${q03.points} points)
 
     ${q03.ask}
-        ${q03.answerChoice1}
-        ${q03.answerChoice2}
-        ${q03.answerChoice3}`,
+        ${q03.answerChoiceA}
+        ${q03.answerChoiceB}
+        ${q03.answerChoiceC}`,
         `Your answer: A, B, or C (NOT case sensitive)`);
 
     //In-process user answer
