@@ -140,11 +140,96 @@ function question03() {
         //.... try again
         question03();
     };
+
+    //Function 4444444444444444444444444444444444444444444444444444444444444444
+};function question04() {
+
+    //Promopt user for answer to question
+    let result04: string = window.prompt(`Question 4:   (${q04.points} points)
+
+    ${q04.ask}
+        ${q04.answerChoiceA}
+        ${q04.answerChoiceB}
+        ${q04.answerChoiceC}`,
+        `Your answer: A, B, or C (NOT case sensitive)`);
+
+    //In-process user answer
+    let _result04 = result04.toUpperCase();
+
+    //Show positive result 
+    if (_result04 === q04.correctAnswer) {
+
+        //Increase running total score by current question value
+        quizScore = quizScore + q04.points;
+        alert(`That's correct!
+
+    You earned (${q04.points}) points.
+    Total quiz score so far: ${quizScore}`);
+    }
+
+    //Show negative result//
+     else {
+        
+        //Reduce question value by 1 and ....
+        q04.points = q04.points - 1;
+        alert(`Oops... wrong answer.
+
+    Hit "OK" to try again.
+
+    Total quiz score so far: ${quizScore}`);
+        //.... try again
+        question04();
+    };
 };
+
+// Function 555555555555555555555555555555555555555555555555555555555555555555
+function question05() {
+
+    //Promopt user for answer to question
+    let result05: string = window.prompt(`Question 5:   (${q05.points} points)
+
+    ${q05.ask}
+        ${q05.answerChoiceA}
+        ${q05.answerChoiceB}
+        ${q05.answerChoiceC}`,
+        `Your answer: A, B, or C (NOT case sensitive)`);
+
+    //In-process user answer
+    let _result05 = result05.toUpperCase();
+
+    //Show positive result 
+    if (_result05 === q05.correctAnswer) {
+
+        //Increase running total score by current question value
+        quizScore = quizScore + q05.points;
+        alert(`That's correct!
+
+    You earned (${q05.points}) points.
+    Total quiz score so far: ${quizScore}`);
+    }
+
+    //Show negative result//
+     else {
+        
+        //Reduce question value by 1 and ....
+        q05.points = q05.points - 1;
+        alert(`Oops... wrong answer.
+
+    Hit "OK" to try again.
+
+    Total quiz score so far: ${quizScore}`);
+        //.... try again
+        question05();
+    };
+};
+
 
 question01();
 question02();
 question03();
+question04();
+question05();
+
 
 alert(`That all folks....
 Final quiz score : ${quizScore}`);
