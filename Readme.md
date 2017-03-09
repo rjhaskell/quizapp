@@ -11,7 +11,7 @@
   DUE: March 9 2017
   Complete a minimum of 2 Stretch Goals
 
-####Project
+#### Project
 * Established GIT repositiory
 * Established NPM
 * Established TSC
