@@ -223,7 +223,6 @@ function question05() {
     };
 };
 
-
 question01();
 question02();
 question03();
